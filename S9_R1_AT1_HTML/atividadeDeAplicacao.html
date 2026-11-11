@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição para o evento</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Inscreva-se no EVENTO </h1>
+    </header>
+
+    <main>
+        <section style="text-align: center;">
+            <form action="" method="post">
+                <label for="name">Nome: </label>
+                <input type="text" name="name" id="name" required placeholder="Fulano de Tal" minlength="3"> <br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="fulanoDeTal@gmail.com" required> <br>
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(19) 12342-1265" required> <br>
+                <label for="eventDate">Data do Evento: </label>
+                <input type="date" name="eventDate" id="eventDate" placeholder="30-03-2010" required> <br>
+                <label for="quantPart">Quantidade de Particiantes: </label>
+                <input type="number" name="quantPart" id="quantPart" placeholder="4" required> <br>
+                <label for="observ">Observações: </label> <br>
+                <textarea name="observ" id="observ" placeholder="Era uma vez: "></textarea> <br>
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
