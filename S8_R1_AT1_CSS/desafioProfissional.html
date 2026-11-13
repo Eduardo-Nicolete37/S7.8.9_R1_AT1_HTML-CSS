@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Empresa</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #eee;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        .banner {
+            background: blue;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            transform: skew(-5deg);
+        }
+
+        button {
+            padding: 10px;
+            background: black;
+            color: white;
+            border: none;
+            transition: transform 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            transform: translate(5px, 5px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Minha Empresa</h2>
+    </header>
+
+    <section class="banner">
+        <h1>Bem-vindo!</h1>
+        <p>Conheça nossa empresa.</p>
+        <button>Saiba mais</button>
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Serviços</h3>
+            <p>Oferecemos serviços.</p>
+        </div>
+
+        <div class="card">
+            <h3>Ideias</h3>
+            <p>Temos boas ideias.</p>
+        </div>
+
+        <div class="card">
+            <h3>Projetos</h3>
+            <p>Fazemos projetos.</p>
+        </div>
+
+    </section>
+
+</body>
+</html>
